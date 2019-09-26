@@ -33,6 +33,7 @@ local UIParent = _G.UIParent
 local UnitGUID = _G.UnitGUID
 local YES = _G.YES
 local hooksecurefunc = _G.hooksecurefunc
+local GameLocale = GetLocale()
 
 local ACTIVE_QUEST_ICON_FILEID = GetFileIDFromPath("Interface\\GossipFrame\\ActiveQuestIcon")
 local AVAILABLE_QUEST_ICON_FILEID = GetFileIDFromPath("Interface\\GossipFrame\\AvailableQuestIcon")
